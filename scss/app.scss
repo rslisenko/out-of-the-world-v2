@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@font-face {
+	font-family: trump;
+	src: url(../fonts/trump_gothic_east_bold-webfont.woff2) format('woff2'),
+		 url('../fonts/trump_gothic_east_bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0 0 0 15px;
+}
+a {
+	color: currentColor;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body {
+	font: 400 16px/1.3 'Lato', Arial, sans-serif;
+}
+.ba-read-more {
+	letter-spacing: 0.2em;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #c74c4c !important;
+	&:hover {
+		// font-weight: bold;
+		// color: #FFF;
+		// text-decoration: none;
+	}
+}
+
+.ba-slider-wrapper {
+
+}
+.ba-slider {
+
+
+}
+
+.current-slide {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	font-weight: bold;
+}
+@media (max-width: 768px) {
+
+}
+
+.slick-dots {
+	position: absolute;
+	list-style-type: none;
+	transition: visibility 1s;
+	top: 20%;
+	right: 20px;
+	color: #888;
+	li {
+		margin-top: 20px;
+		a {
+			&:hover {
+				text-decoration: none;
+				color: #000;
+				font-weight: bold;
+				cursor: pointer;
+			}
+		}
+		button {
+			border: none;
+			border-radius: 50%;
+			background: none;
+		}
+	}
+}
+.slick-active {
+	a {
+		color: #000;
+		font-weight: bold;
+	}
+}
+
